@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Project1_Admin</string>
+
+
+        <string-array name="dropdown1_options">
+            <item>JSC</item>
+            <item>SSC</item>
+            <item>HSC</item>
+            <item>ADMISSION</item>
+            <item>JOB</item>
+        </string-array>
+
+        <string-array name="dropdown2_options">
+            <item>Bangla</item>
+            <item>English</item>
+            <item>Math</item>
+        </string-array>
+
+        <string-array name="dropdown3_options">
+            <item>2010</item>
+            <item>2011</item>
+            <item>2012</item>
+        </string-array>
+
+</resources>

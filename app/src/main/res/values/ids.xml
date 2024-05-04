@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="textViewQuestion" type="id" />
+    <item name="textViewOptionA" type="id" />
+    <item name="textViewOptionB" type="id" />
+    <item name="textViewOptionC" type="id" />
+    <item name="textViewOptionD" type="id" />
+</resources>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SetQuestion"
+    android:orientation="vertical"
+    android:layout_margin="10dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Question"
+        android:textAlignment="center"/>
+
+    <Spinner
+        android:id="@+id/spinnerExmType"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Select Exam Type" />
+
+    <Spinner
+        android:id="@+id/spinnerExmSubject"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Select Exam Subject" />
+
+    <Spinner
+        android:id="@+id/spinnerYear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Select Year" />
+
+    <EditText
+        android:id="@+id/editTextQuestionText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Question Text" />
+
+    <EditText
+        android:id="@+id/editTextOptionA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Option A" />
+
+    <EditText
+        android:id="@+id/editTextOptionB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Option B" />
+
+    <EditText
+        android:id="@+id/editTextOptionC"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Option C" />
+
+    <EditText
+        android:id="@+id/editTextOptionD"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Option D" />
+
+    <EditText
+        android:id="@+id/editTextCorrectOption"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Correct Option" />
+
+    <Button
+        android:id="@+id/buttonInsertData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Insert Data" />
+
+</LinearLayout>
